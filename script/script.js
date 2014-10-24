@@ -14,7 +14,7 @@ for(var j=0;j<lista.length;j++){//crea un tablero nuevo ya rebuelto
 //ya tablero aleatorio :)########################################################################################
 var cartas = document.querySelectorAll(".carta");
 function voltear (e) {
-  if(e.target.parentNode.classList.length=1){
+  if(e.target.parentNode.classList.length>1){}else{
     if(bandera){
       if(carta1 && carta2){
         if(carta1.src != carta2.src){
