@@ -1,11 +1,10 @@
 .carta{
   display: inline-block;
   background:black;
-}
-.carta{
   height:100px;
   width:100px;
 }
+
 .carta img{
   opacity:0;
 }
